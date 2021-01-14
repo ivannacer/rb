@@ -1,0 +1,252 @@
+html{
+    font-size: 62.5%;
+    /* normalizar para REMS */
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+}
+
+
+/* Principales */
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 1.8rem;
+}
+h4{
+    font-size: 1.6rem;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.espacio{
+    margin-top: 2rem;
+    margin: 2rem;
+    
+}
+
+.fw300{
+    font-weight: 400;
+}
+
+.centrar-texto{
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+.boton{
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 1.5rem 3rem;
+    margin-top: 2rem;
+    display: block;
+    border-style: double dotted;
+    border-radius: 3rem;
+}
+
+.boton-principal{
+    background-color: green;
+}
+
+.boton-secundario{
+    background-color: slategray;
+    display: inline;
+}
+
+/* Header */
+.site-header{
+    background-image: url(../imagen/principal01.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 40rem;
+}
+
+.contenido-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0.625rem -1rem 0.938rem black;
+}
+
+#slogan h1{
+    color: green;
+    text-shadow: 0.624rem -1rem 1.25rem gray;
+    text-align: center;
+}
+
+#slogan h4{
+    text-align: center;
+    text-shadow: 0.625rem -1rem 1.25rem;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    /* padding-top: 10px; */
+}
+
+/* Navegación */
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.60rem;
+    margin-right: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav a:hover{
+    color: greenyellow;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav a:last-of-type{
+    margin: 0%;
+    
+}
+
+/* porque elegirnos */
+.elegirnos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.razones{
+    /* flex-basis: 10rem; */
+    flex-basis:calc(25% - 4rem);
+    text-align: center;
+}
+
+.razones i{
+    font-size: 5rem;
+    color: green
+}
+
+/* oferta de servicios */
+.oferta{
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicio{
+    flex-basis: calc(25% - 1rem);
+    border-style: dotted;
+    border-color: lightgray;
+    border-width: .2rem;
+    border: .2rem dotted gray
+}
+
+.contenido-servicio{
+    padding: 2rem;
+    text-align: center;
+}
+
+.contenido-servicio p,
+.contenido-servicio h3{
+    margin: 0;
+}
+
+.precio{
+    color: teal;
+    font-weight: 700;
+}
+
+/* nuestros números */
+.imagen-contacto{
+    background-color: grey;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.contenido-contacto{
+    font-size: 2.6rem;
+}
+
+/* blog */
+.seccion-inferior{
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion-inferior .blog{
+    flex-basis: 60%;
+}
+
+.seccion-inferior .testimoniales{
+    flex-basis: calc(40% - 2rem);
+}
+
+.entrada-blog{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.entrada-blog:last-of-type{
+    margin-bottom: 0%;
+}
+
+.entrada-blog .imagen{
+    flex-basis: 40%;
+}
+
+.entrada-blog .texto-entrada{
+    flex-basis: calc(60% - 3rem);
+}
+
+.texto-entrada a{
+    color: forestgreen;
+    text-decoration: none;
+    margin: 0%;
+}
+
+.texto-entrada h4{
+    margin: 0;
+}
+
+.texto-entrada h4::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: .4rem;
+    background-color: maroon;
+}
+
+/* testimoniales */
+.testimonial{
+    background-color:yellowgreen ;
+    font-size: 2rem;
+    padding: 0.6rem;
+    color: white;
+    border-bottom-right-radius: 3rem ;
+    border-top-left-radius: 3rem;
+}
+
+.footer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: grey;
+    
+}
